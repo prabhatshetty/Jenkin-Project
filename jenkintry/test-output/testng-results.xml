@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser launched sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Hello World!]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16590" started-at="2022-09-25T14:20:44 IST" finished-at="2022-09-25T14:21:01 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16590" started-at="2022-09-25T14:20:44 IST" finished-at="2022-09-25T14:21:01 IST">
+      <class name="Test.App">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:Test.App@2353b3e6]" name="launchbrowser" is-config="true" duration-ms="8968" started-at="2022-09-25T14:20:44 IST" finished-at="2022-09-25T14:20:53 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser launched sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="navigate()[pri:0, instance:Test.App@2353b3e6]" name="navigate" is-config="true" duration-ms="4174" started-at="2022-09-25T14:20:53 IST" finished-at="2022-09-25T14:20:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="PASS" signature="simple()[pri:0, instance:Test.App@2353b3e6]" name="simple" duration-ms="1384" started-at="2022-09-25T14:20:57 IST" finished-at="2022-09-25T14:20:59 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Hello World!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- simple -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Test.App@2353b3e6]" name="close" is-config="true" duration-ms="1970" started-at="2022-09-25T14:20:59 IST" finished-at="2022-09-25T14:21:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Test.App -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
